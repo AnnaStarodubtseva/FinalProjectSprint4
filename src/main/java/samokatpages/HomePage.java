@@ -6,7 +6,7 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 
 public class HomePage {
-    public static final String urlSamokat = "https://qa-scooter.praktikum-services.ru/";
+    public static final String URL_SAMOKAT = "https://qa-scooter.praktikum-services.ru/";
 
     private WebDriver driver;
     public HomePage(WebDriver driver){

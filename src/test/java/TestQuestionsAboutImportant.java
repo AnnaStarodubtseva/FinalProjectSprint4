@@ -40,7 +40,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
         @Test
         public void questionAboutImportantTest() {
             WebDriver driver = new ChromeDriver();
-            driver.get(urlSamokat);
+            driver.get(URL_SAMOKAT);
             HomePage objHomePage = new HomePage(driver);
             objHomePage.clickQuestion(indexTest);
             assertEquals(textAnswer, objHomePage.getTextAnswer(indexTest));

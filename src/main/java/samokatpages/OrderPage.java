@@ -4,7 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
 public class OrderPage {
-    public static final String urlSamokatOrder = "https://qa-scooter.praktikum-services.ru/order";
+    public static final String URL_SAMOKAT_ORDER = "https://qa-scooter.praktikum-services.ru/order";
     private WebDriver driver;
     public OrderPage(WebDriver driver) {
         this.driver = driver;

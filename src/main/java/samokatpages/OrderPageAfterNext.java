@@ -26,8 +26,8 @@ public class OrderPageAfterNext {
     public void clickYesInModal() {
         driver.findElement(By.xpath(".//button[@class = 'Button_Button__ra12g Button_Middle__1CSJM' and text()='Да']")).click();
     }
-    // проверяем наличие модального окна "Заказ оформлен"
-    public  boolean orderConfirmationWindow() {
-        return driver.findElement(By.className("Order_Modal__YZ-d3")).isDisplayed();
+    // проверяем наличие надписи "Заказ оформлен"
+    public  boolean signOrderCompleted() {
+        return driver.findElement(By.xpath(".//div[@class = 'Order_ModalHeader__3FDaJ' and text()='Заказ оформлен']")).isDisplayed();
     }
 }
